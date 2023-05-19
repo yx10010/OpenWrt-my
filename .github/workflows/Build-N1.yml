@@ -15,7 +15,7 @@ env:
   DIY_P1_SH: config/diy-part1.sh
   DIY_P2_SH: config/diy-part2.sh
   TZ: Asia/Shanghai
-  FILE_NAME: N1
+  FILE_NAME: ARMv8
 
 jobs:
   build:
@@ -152,7 +152,7 @@ jobs:
     - name: 发布固件
       uses: ncipollo/release-action@v1
       with:
-        name: ${{ env.FILE_NAME }} ❤️ ${{ env.DATE }}
+        name: N1 ❤️ ${{ env.DATE }}
         tag: ${{ env.FILE_NAME }}
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         allowUpdates: true
