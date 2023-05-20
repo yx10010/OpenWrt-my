@@ -13,7 +13,7 @@ env:
   FEEDS_CONF: config/feeds.conf.default
   CONFIG_FILE: config/n1.config
   DIY_P1_SH: config/diy-part1.sh
-  DIY_P2_SH: config/diy-part2.sh
+  DIY_P2_SH: config/diy-n1.sh
   TZ: Asia/Shanghai
   FILE_NAME: ARMv8
   PRODUCT_NAME: Phicomm-N1
