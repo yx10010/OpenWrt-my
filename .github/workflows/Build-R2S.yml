@@ -127,7 +127,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
         name: ${{ env.FILE_NAME }} ❤️ ${{ steps.tag.outputs.release_date }}
-        tag: ${{ env.FILE_NAME }}
+        tag_name: ${{ env.FILE_NAME }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
