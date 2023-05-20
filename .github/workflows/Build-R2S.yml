@@ -17,6 +17,7 @@ env:
   DIY_P2_SH: config/diy-part2.sh
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  FILE_NAME: NanoPi-R2S
 
 jobs:
   build:
@@ -125,8 +126,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        name: NanoPi-R2S ❤️ ${{ steps.tag.outputs.release_date }}
-        tag_name: ${{ steps.tag.outputs.release_tag }}
+        name: ${{ env.FILE_NAME }} ❤️ ${{ steps.tag.outputs.release_date }}
+        tag: ${{ env.FILE_NAME }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
