@@ -111,3 +111,5 @@ jobs:
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           allowUpdates: true
           token: ${{ secrets.GH_TOKEN }}
+          body: |
+            Flippy 固件 Rockchip35XX 系列专用内核。
