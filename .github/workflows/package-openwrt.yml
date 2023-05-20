@@ -41,6 +41,8 @@ on:
         description: "Set custom script loading path"
         required: false
         default: ""
+  schedule:
+    - cron: 0 2 * * *
 
 env:
   TZ: America/New_York
