@@ -37,10 +37,6 @@ on:
         required: false
         default: true
         type: boolean
-      script_diy_path:
-        description: "Set custom script loading path"
-        required: false
-        default: ""
   schedule:
     - cron: 0 2 * * *
 
