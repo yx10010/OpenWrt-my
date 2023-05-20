@@ -16,6 +16,7 @@ env:
   DIY_P2_SH: config/diy-part2.sh
   TZ: Asia/Shanghai
   FILE_NAME: ARMv8
+  PRODUCT_NAME: Phicomm-N1
 
 jobs:
   build:
@@ -152,7 +153,7 @@ jobs:
     - name: 发布固件
       uses: ncipollo/release-action@v1
       with:
-        name: N1 ❤️ ${{ env.DATE }}
+        name: ${{ env.PRODUCT_NAME }} ❤️ ${{ env.DATE }}
         tag: ${{ env.FILE_NAME }}
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         allowUpdates: true
