@@ -113,3 +113,5 @@ jobs:
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           allowUpdates: true
           token: ${{ secrets.GH_TOKEN }}
+          body: |
+            Flippy 系列固件打包专用内核，支持 Amlogic Allwinner Rockchip 平台。
