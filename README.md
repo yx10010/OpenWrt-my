@@ -1,6 +1,6 @@
 <div align="center">
-![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
    
+![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
 <h1>OpenWrt — 多设备固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
