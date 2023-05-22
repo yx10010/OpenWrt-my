@@ -1,5 +1,4 @@
-<div align="center">
-<img width="768" src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/openwrt.png"/>
+![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
 <h1>OpenWrt — 多设备固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
