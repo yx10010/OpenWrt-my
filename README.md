@@ -2,7 +2,17 @@
    
 ![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
 
-<p align="center"><img src="https://profile-counter.glitch.me/ysx88_BurpSuiteCN-Release2/count.svg" alt="BurpSuiteCN-Release :: Visitor's Count" />
+ 
+
+
+<p align="center">
+<a href="https://github.com/ysx88/OpenWrt/releases/latest"><img src="https://img.shields.io/github/release/ysx88/OpenWrt.svg"/></a>
+<img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total"/>
+</p>
+
+<h4 align="center">Visitors :eyes:</h4>
+
+<p align="center"><img src="https://profile-counter.glitch.me/Leon406_BurpSuiteCN-Release2/count.svg" alt="BurpSuiteCN-Release :: Visitor's Count" />
  <img width=0 height=0 src="https://profile-counter.glitch.me/ysx88/count.svg" alt="Leon406:: Visitor's Count" />
 
 </p>
