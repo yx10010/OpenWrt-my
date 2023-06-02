@@ -15,7 +15,7 @@ env:
   DIY_P1_SH: config/diy-part1.sh
   DIY_P2_SH: config/diy-n1.sh
   TZ: Asia/Shanghai
-  FILE_NAME: ARMv8
+  FILE_NAME: Phicomm-N1
   PRODUCT_NAME: Phicomm-N1
 
 jobs:
