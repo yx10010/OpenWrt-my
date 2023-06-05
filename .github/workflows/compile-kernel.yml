@@ -1,4 +1,4 @@
-name: Compile kernel
+name: Compile-kernel
 
 on:
   repository_dispatch:
