@@ -18,11 +18,7 @@ env:
   CONFIG_FILE: configs/x86.config
   DIY_P1_SH: configs/diy-part1.sh
   DIY_P2_SH: configs/diy-x86.sh
-  UPLOAD_BIN_DIR: false
-  UPLOAD_FIRMWARE: false
-  UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
+  UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   FILE_NAME: OpenWrt-x86
 
@@ -124,18 +120,6 @@ jobs:
         cd ./package
         tar -zcvf IPK.tar.gz *
         mv -f IPK.tar.gz ../targets/*/*
-
-    - name: Deliver package
-      uses: actions/upload-artifact@v3
-      with:
-        name: IPK${{ env.FILE_DATE }}
-        path: ./openwrt/bin/package/
-
-    - name: Deliver firmware
-      uses: actions/upload-artifact@v3
-      with:
-        name: firmware${{ env.FILE_DATE }}
-        path: ./openwrt/bin/firmware/
 
     - name: Organize files
       id: organize
