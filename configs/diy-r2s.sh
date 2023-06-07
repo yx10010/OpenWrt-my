@@ -6,13 +6,6 @@ sed -i 's/192.168.1.1/192.168.71.3/g' package/base-files/files/bin/config_genera
 
 #删除原默认主题
 rm -rf feeds/luci/themes/luci-theme-argon
-rm -rf feeds/small8/luci-theme-argon
-rm -rf feeds/small8/luci-app-argon-config
-#rm -rf feeds/luci/luci-theme-bootstrap
-#rm -rf feeds/luci/luci-theme-material
-#rm -rf feeds/luci/luci-theme-netgear
-#rm -rf feeds/luci/luci-theme-ifit
-#rm -rf feeds/luci/luci-theme-neobird
 
 #下载主题luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
